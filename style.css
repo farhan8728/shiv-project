@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --deep-blue-color:#2c294b;
+    --low-blue-color:#403e5d;
+
+
+
+    --eight-px:0.5rem;
+    --twelve-px:0.75rem;
+}
+body{
+    background-color: #f8f8f8;
+}
+.header{
+    background-color: var(--deep-blue-color);
+    height: 50vh;
+}
+.search-menu{
+    background-color: var(--low-blue-color);
+    border: none !important;
+    color: #fff !important;
+    border-radius: .313rem;
+    padding: var(--eight-px) var(--twelve-px);
+}
+
+.search-menu:focus{
+    outline: none !important;
+    background-color: var(--low-blue-color);
+}
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.header h3{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.device{
+    color: #fff;
+    font-size: var(--twelve-px);
+}
+
+
+
+
+.menu-icon{
+    background-color: var(--low-blue-color);
+    padding: 8px;
+    color: #fff;
+    border-radius: 50%;
+}
+.menu-search-option{
+    
+}
+.menu-profile{
+    background-color: #009ef7;
+    margin-top: -10px;
+    border-radius: 15px;
+    padding: 8px;
+}
+.menu-profile p,a{
+    color: #fff;
+    text-decoration: none;
+    padding-top: 6px;
+    
+}
+.profile-name{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+.left-menu-ber{
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    margin-left: -15px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.logo{
+    color: #009ef7 !important;
+    font-weight: 700;
+}
+
+
+
+
+
+.dasboard-fist-part{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1920px) {
+    .dasboard-fist-part{
+        margin-left: 300px;
+    }
+}
+
+
+
+
+@media screen and (min-width:1921px) and (max-width:4000px){
+    .dasboard-fist-part{
+        margin-left: 23px;
+    }
+}
