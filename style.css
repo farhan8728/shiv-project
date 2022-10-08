@@ -137,8 +137,8 @@ body{
     .left-menu-ber{
         display: none;
     }
-    .right-part{
-        display: none;
+    .dasboard-fist-part{
+        margin-left: 0;
     }
     .address-book{
         margin-top: -60px;
